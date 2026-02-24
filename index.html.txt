@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minhas Anotações</title>
+  <script>
+    var senha = "0000";
+    var entrada = prompt("Digite a senha:");
+    if (entrada !== senha) {
+      document.write("Acesso negado");
+    }
+  </script>
+</head>
+<body>
+  <h1>Minhas Anotações</h1>
+  <textarea style="width:100%; height:300px;"></textarea>
+</body>
+</html>
